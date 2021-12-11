@@ -1,0 +1,169 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:background="#FFFFFF"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#102D69"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/header"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#102D69"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/footer"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    
+   
+    
+    
+    <ScrollView 
+     
+      android:id="@+id/scroll" 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_above="@id/footer"
+      android:layout_below="@id/header">
+        
+
+    
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+        
+        <View
+    android:layout_width="fill_parent"
+    android:layout_height="10dip"
+    android:background="#FFFFFF" />
+        
+   <TextView
+       android:layout_width="match_parent"
+       android:layout_height="wrap_content"
+       android:layout_margin="5dp"
+       android:gravity="center"
+       android:text="@string/eliminarV"
+       android:textColor="#000000"
+       android:textSize="20sp" />
+   
+   <View
+    android:layout_width="fill_parent"
+    android:layout_height="10dip"
+    android:background="#FFFFFF" />
+   
+   
+   <View
+    android:layout_width="fill_parent"
+    android:layout_height="2dip"
+    android:background="#000000" />
+   
+    <View
+    android:layout_width="fill_parent"
+    android:layout_height="10dip"
+    android:background="#FFFFFF" />
+   
+  
+       
+     
+       <TextView
+           android:id="@+id/textView2"
+           android:layout_width="fill_parent"
+           android:layout_height="fill_parent"
+           android:gravity="center"
+           android:layout_margin="5dp"
+           android:textSize="15sp" 
+           android:text="@string/placa" />
+ 
+       
+       
+       <EditText
+     android:id="@+id/txtplaca"
+     android:layout_width="match_parent"
+     android:layout_height="wrap_content"
+     android:hint="@string/vehiculoText"
+      />
+       
+        
+   
+<View
+    android:layout_width="fill_parent"
+    android:layout_height="10dip"
+    android:background="#FFFFFF" />
+        
+        
+   <View
+    android:layout_width="fill_parent"
+    android:layout_height="2dip"
+    android:background="#000000" />
+   
+   
+   <View
+    android:layout_width="fill_parent"
+    android:layout_height="20dip"
+    android:background="#FFFFFF" />
+   
+   
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:gravity="center_horizontal" >
+
+        <Button
+            android:id="@+id/EliminarV"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/Eliminar" 
+            android:onClick="EliminarV"/>
+
+        <Button
+            android:id="@+id/btnCerrar"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="@string/cerrar" 
+            android:onClick="CerrarVentana"/>
+
+       
+
+    </LinearLayout>
+   
+    
+  
+    
+   
+   
+    </LinearLayout>
+    
+ 
+    </ScrollView>
+  
+
+</RelativeLayout>

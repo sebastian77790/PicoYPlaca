@@ -1,0 +1,195 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="wrap_content"
+    android:background="#FFFFFF"
+    android:layout_height="wrap_content" >
+
+    <RelativeLayout
+        android:id="@+id/header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="#102D69"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/header"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/footer"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:background="#102D69"
+        android:gravity="center" >
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:text="@string/footer"
+            android:textColor="#FFFFFF"
+            android:textSize="20sp" />
+    </RelativeLayout>
+
+    
+   
+    
+    
+    <ScrollView 
+     
+      android:id="@+id/scroll" 
+      android:layout_width="fill_parent"
+      android:layout_height="wrap_content"
+      android:layout_above="@id/footer"
+      android:layout_below="@id/header">
+        
+
+    
+    
+    <LinearLayout
+        android:id="@+id/content"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        
+        android:background="#FFFFFF"
+        android:orientation="vertical" >
+        
+        
+         <View
+    android:layout_width="fill_parent"
+    android:layout_height="15dip"
+    android:background="#FFFFFF" />
+        
+        
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="match_parent"
+            android:layout_height="68dp"          
+            android:src="@drawable/logo3" />
+        
+        
+         <View
+    android:layout_width="fill_parent"
+    android:layout_height="15dip"
+    android:background="#FFFFFF" />
+        
+        
+     <View
+    android:layout_width="fill_parent"
+    android:layout_height="2dip"
+    android:background="#000000" />
+       
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="@string/info"
+            android:textColor="#000000"
+             />
+        
+        
+        
+         <View
+    android:layout_width="fill_parent"
+    android:layout_height="2dip"
+    android:background="#000000" />
+         
+         
+            <View
+    android:layout_width="fill_parent"
+    android:layout_height="10dip"
+    android:background="#FFFFFF" />
+            
+            
+            
+             <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="@string/basica"
+            android:textColor="#000000"
+            android:textSize="20sp"
+             />
+
+                 <Button
+                     android:id="@+id/btnAgregar"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:text="@string/agregar"
+                     android:onClick="clickBotonAgregar" />
+                 
+                 
+                    <View
+    android:layout_width="fill_parent"
+    android:layout_height="10dip"
+    android:background="#FFFFFF" />
+                 
+                    <View
+    android:layout_width="fill_parent"
+    android:layout_height="2dip"
+    android:background="#000000" />
+                    
+            
+                                    <View
+    android:layout_width="fill_parent"
+    android:layout_height="10dip"
+    android:background="#FFFFFF" />
+                                    
+                                    
+                                    
+                      <TextView
+                          android:id="@+id/txt1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="@string/vehiculosagregados"
+            android:textColor="#000000"
+            android:textSize="15sp"
+            android:visibility="invisible"
+             />
+                    
+                     <TextView
+            android:id="@+id/txtresul"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center"
+            android:text="@string/resultado"
+            android:textColor="#000000"
+            android:textSize="20sp"
+             />
+            
+                     
+                      <Button
+                     android:id="@+id/btnContinuar"
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center"
+                     android:text="@string/continuar"
+                     android:onClick="clickBotonContinuar"
+                     android:visibility="invisible"
+                      />
+
+    </LinearLayout>
+    
+     </ScrollView>
+  
+
+</RelativeLayout>
+
+
+

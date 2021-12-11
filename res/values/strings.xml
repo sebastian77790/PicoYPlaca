@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Pico y Placa ITM</string>
+    <string name="app_name2">Agregar vehiculo(s)</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Configuracion</string>
+    <string name="hola">Sebas</string> 
+    <string name="header">Pico y Placa ITM</string>
+    <string name="footer">S.P y S.L</string>   
+    <string name="info">Bienvenido a la aplicacion de pico y placa ITM, por favor ingresa uno o varios vehiculos para empezar a usar nuestra aplicacion:</string>
+    <string name="basica">Agregar vehiculo(s):</string>
+ 	<string name="nombre">Nombre:</string> 
+ 	<string name="agregar">Agregar Vehiculo</string>
+  	<string name="vehiculosA">Agregar Vehiculo(s)</string> 
+   	<string name="tipo">Tipo vehiculo:</string>
+   	<string name="placa">Placa:</string>
+    <string name="resultado"> </string>
+    <string name="vehiculosagregados">Vehiculo(s) Agregado(s):</string>   
+    <string name="continuar">Continuar</string>
+    <string name="Eliminar">Eliminar</string>
+    <string name="vehiculo_prompt">Selecciona tipo</string>
+    <string name="eliminarV">Eliminar vehiculo(s)</string>
+    <string name="info2">Recuerda: La placa para los vehiculos tipo carro deben ser LLL### y para los tipo moto deben ser LLL##L, donde L es "letra" y # es "numero".</string>
+    <string-array name="vehiculo_arrays">
+        <item>Carro</item>
+        <item>Moto</item>
+    </string-array>  
+    <string name="vehiculoText">Ingrese placa</string>
+    <string name="agregarV">Agregar</string>
+    <string name="cerrar">Regresar</string>
+    <string name="action_salir">Salir.</string>
+    <string name="action_informacion">Informacion.</string>
+    <string name="pantalla_principal">Configuraciones:</string>
+    <string name="picoyplaca">Restricción de Pico y placa:</string>
+    <string name="lunes">L</string>
+    <string name="martes">M</string>
+    <string name="miercoles">W</string>
+    <string name="jueves">J</string>
+    <string name="viernes">V</string>
+     <string name="mensajesemergentes">Opciones mensaje emergente:</string>
+     <string name="undiantes">Un dia antes.</string>
+     <string name="mismodia">El mismo dia.</string>
+     <string name="guardar">Guardar Cambios</string>
+     <string name="info3">Seleccione un vehiculo para desplegar las opciones.</string>
+    
+</resources>
